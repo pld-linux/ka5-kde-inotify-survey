@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	23.08.3
+%define		kdeappsver	23.08.4
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kde-inotify-survey
 Summary:	Kde inotify survey
 Name:		ka5-%{kaname}
-Version:	23.08.3
+Version:	23.08.4
 Release:	1
 License:	BSD 3 Clause/GPL v2/GPL v3
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	9f7375f1a83aab190de348cb951612df
+# Source0-md5:	2ded31c4392af5ef4b792dee4e99d646
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= 5.15.2
 BuildRequires:	Qt5DBus-devel >= 5.15.2
